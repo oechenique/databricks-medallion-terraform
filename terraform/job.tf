@@ -24,7 +24,7 @@ resource "databricks_job" "medallion_pipeline" {
 
     max_retries               = 2
     min_retry_interval_millis = 60000
-    retry_on_timeout           = true
+    retry_on_timeout          = true
   }
 
   task {
@@ -40,7 +40,7 @@ resource "databricks_job" "medallion_pipeline" {
 
     max_retries               = 2
     min_retry_interval_millis = 60000
-    retry_on_timeout           = true
+    retry_on_timeout          = true
   }
 
   task {
