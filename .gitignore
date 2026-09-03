@@ -1,0 +1,19 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Secrets / entorno
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+*.pyc
+__pycache__/

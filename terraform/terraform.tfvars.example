@@ -1,0 +1,9 @@
+# Copiá este archivo como terraform.tfvars (que está en .gitignore) y completá tus valores reales.
+# NUNCA commitees terraform.tfvars — solo este .example queda en git.
+
+databricks_host     = "https://tu-workspace.cloud.databricks.com"
+databricks_token    = "" # mejor: dejalo vacío acá y exportalo como DATABRICKS_TOKEN en tu shell
+environment          = "dev"
+process_date         = "2026-09-01"
+source_table         = "samples.nyctaxi.trips"
+notification_email   = "tu-email@ejemplo.com"
